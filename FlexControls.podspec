@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FlexControls'
-  s.version          = '1.0'
+  s.version          = '1.0.1'
   s.license          = 'MIT'
   s.summary          = 'Flexible base components with style'
   s.homepage         = 'https://github.com/mjrehder/FlexControls.git'
@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
   s.dependency 'StyledLabel'
 
   s.framework    = 'UIKit'
-  s.source_files = 'FlexControls/*.swift'
-  s.resources    = 'FlexControls/*.xcassets'
+  s.source_files = 'FlexControls/**/*.swift'
   s.requires_arc = true
 end
