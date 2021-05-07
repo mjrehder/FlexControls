@@ -21,6 +21,8 @@
 		6903A35A2643E8110020350C /* FlexControlStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3582643E8110020350C /* FlexControlStyler.swift */; };
 		6903A35C264402C60020350C /* FlexLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A35B264402C60020350C /* FlexLabel.swift */; };
 		6903A35D264402C60020350C /* FlexLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A35B264402C60020350C /* FlexLabel.swift */; };
+		6903A3C52645677E0020350C /* StyledLabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3C42645677E0020350C /* StyledLabelFactory.swift */; };
+		6903A3C62645677E0020350C /* StyledLabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3C42645677E0020350C /* StyledLabelFactory.swift */; };
 		F004CC1A884199AC5AFFD26D /* Pods_FlexControls_FlexControlsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901368506D30327A0FB7095E /* Pods_FlexControls_FlexControlsTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +52,7 @@
 		6903A34F2643E6650020350C /* FlexShapeStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexShapeStyle.swift; sourceTree = "<group>"; };
 		6903A3582643E8110020350C /* FlexControlStyler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexControlStyler.swift; sourceTree = "<group>"; };
 		6903A35B264402C60020350C /* FlexLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexLabel.swift; sourceTree = "<group>"; };
+		6903A3C42645677E0020350C /* StyledLabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledLabelFactory.swift; sourceTree = "<group>"; };
 		901368506D30327A0FB7095E /* Pods_FlexControls_FlexControlsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexControls_FlexControlsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB335F2D39B62C8A3FED291D /* Pods-FlexControls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexControls.debug.xcconfig"; path = "Target Support Files/Pods-FlexControls/Pods-FlexControls.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,6 +132,7 @@
 			children = (
 				6903A3582643E8110020350C /* FlexControlStyler.swift */,
 				6903A34F2643E6650020350C /* FlexShapeStyle.swift */,
+				6903A3C42645677E0020350C /* StyledLabelFactory.swift */,
 			);
 			path = Styling;
 			sourceTree = "<group>";
@@ -330,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6903A3C52645677E0020350C /* StyledLabelFactory.swift in Sources */,
 				6903A3542643E6650020350C /* FlexShapeStyle.swift in Sources */,
 				6903A3592643E8110020350C /* FlexControlStyler.swift in Sources */,
 				6903A3502643E6650020350C /* FlexBaseStylingControl.swift in Sources */,
@@ -347,6 +352,7 @@
 				6903A35A2643E8110020350C /* FlexControlStyler.swift in Sources */,
 				6903A3532643E6650020350C /* FlexBaseControl.swift in Sources */,
 				6903A3512643E6650020350C /* FlexBaseStylingControl.swift in Sources */,
+				6903A3C62645677E0020350C /* StyledLabelFactory.swift in Sources */,
 				6903A3422643E4360020350C /* FlexControlsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,7 +509,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexControls;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -533,7 +539,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexControls;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

@@ -33,16 +33,8 @@ import StyledLabel
 /// This class wraps a StyledLabel and adds features for placement, layout, etc.
 @IBDesignable
 open class FlexLabel: FlexBaseControl {
-    fileprivate lazy var _label = FlexLabel.defaultStyledLabel()
+    fileprivate lazy var _label = StyledLabelFactory.defaultStyledLabel()
 
-    static func defaultStyledLabel() -> StyledLabel {
-        let label           = StyledLabel()
-        label.textAlignment = .center
-        label.text          = ""
-        
-        return label
-    }
-    
     open var label: StyledLabel {
         get {
             return _label
