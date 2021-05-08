@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FlexControls'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.license          = 'MIT'
   s.summary          = 'Flexible base components with style'
   s.homepage         = 'https://github.com/mjrehder/FlexControls.git'

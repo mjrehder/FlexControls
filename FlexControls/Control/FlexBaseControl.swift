@@ -49,7 +49,7 @@ open class FlexBaseControl: FlexBaseStylingControl {
     
     // MARK: - Internal View
     
-    func layoutComponents() {
+    open func layoutComponents() {
         self.applyStyle(self.getStyle())
     }
 }

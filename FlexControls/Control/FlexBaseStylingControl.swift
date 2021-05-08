@@ -119,7 +119,7 @@ open class FlexBaseStylingControl: UIControl {
         self.layer.addSublayer(self.styleLayer)
     }
     
-    func createBorderLayer(_ style: ShapeStyle, layerRect: CGRect, borderWidth: CGFloat? = nil, borderColor: UIColor? = nil) -> CALayer? {
+    open func createBorderLayer(_ style: ShapeStyle, layerRect: CGRect, borderWidth: CGFloat? = nil, borderColor: UIColor? = nil) -> CALayer? {
         let bw = borderWidth ?? self.borderWidth
         let bc = borderColor ?? self.borderColor
         if bw > 0 && bc != nil {
