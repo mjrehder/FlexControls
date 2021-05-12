@@ -116,7 +116,7 @@ open class FlexLabel: FlexBaseControl {
         self.label.frame = self.bounds.inset(by: UIEdgeInsets.init(top: 0, left: self.labelLeftOffset, bottom: 0, right: self.labelRightOffset))
     }
     
-    func applyStyle() {
+    open func applyStyle() {
         self.applyStyle(self.getStyle())
     }
 }
